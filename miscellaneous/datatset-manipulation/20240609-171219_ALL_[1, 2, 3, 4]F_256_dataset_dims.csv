@@ -1,0 +1,31 @@
+Dataset,Split,Filter Length,Total,Ransomware,Legitimate
+napierone,train,no,7320,1849,5471
+napierone,val,no,2440,588,1852
+napierone,test,no,2440,563,1877
+napierone,train,yes,7107,1849,5258
+napierone,val,yes,2374,588,1786
+napierone,test,yes,2374,563,1811
+low entropy,train,yes,1849,1849,0
+low entropy,val,yes,588,588,0
+low entropy,test,yes,563,563,0
+repetion bytes,train,yes,1849,1849,0
+repetion bytes,val,yes,588,588,0
+repetion bytes,test,yes,563,563,0
+common sequence,train,yes,1849,1849,0
+common sequence,val,yes,588,588,0
+common sequence,test,yes,563,563,0
+low entropy,train,no,1849,1849,0
+low entropy,val,no,588,588,0
+low entropy,test,no,563,563,0
+repetion bytes,train,no,1849,1849,0
+repetion bytes,val,no,588,588,0
+repetion bytes,test,no,563,563,0
+common sequence,test,no,1849,1849,0
+common sequence,val,no,588,588,0
+common sequence,test,no,563,563,0
+attackdaa,train,no,12867,7396,5471
+attackdaa,val,no,4204,2352,1852
+attackdaa,test,no,4129,2252,1877
+attackdaa,train,yes,12654,7396,5258
+attackdaa,val,yes,4138,2352,1786
+attackdaa,test,yes,4063,2252,1811
